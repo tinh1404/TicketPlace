@@ -43,6 +43,35 @@
     color: rgb(255, 207, 163);
     text-decoration: underline; 
 }
+.info-element >ul> li {
+    display: inline-block;
+    position: relative;
+}
+.info-element >ul> li > ul {
+    display: none;
+    position: absolute;
+    background-image: linear-gradient(0,#706695,#F8956F);
+    width: 300px;
+    list-style: none;
+    border-radius: 10px;
+    z-index: 2;
+}
+.info-element >ul> li:hover > ul {
+    display: block;
+} 
+.info-element > ul> li > ul > li{
+    height: 72px;
+}
+.info-element > ul> li > ul > li > a{
+    font-size: 23px;
+    text-decoration: none;
+    color: white;
+    margin: 0 0 0 10px;
+    line-height: 72px;
+}
+.info-element > ul> li > ul > li:hover > a {
+    color: rgb(94, 237, 170);
+}
 .ti-search{
     position: absolute; 
     font-size: 25px;
@@ -63,6 +92,14 @@
     top: 37px;
     left: 97%;
     color: white;
+}
+.ti-align-right div {
+    height: 100px;
+    width: 100px;
+    background-color: #F8956F;
+    overflow: hidden; 
+    position: absolute;
+    top: 10px;
 }
 .header-info  .ti-search:hover,
 .header-info .ti-align-right:hover,
