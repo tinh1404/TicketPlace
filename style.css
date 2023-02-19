@@ -84,7 +84,7 @@ main .main-header {
     background-color: white;
     position: absolute;
     top: 660px;
-    right: 250px;
+    right: 11%;
     border-top-right-radius: 100px;
     border-top-left-radius: 100px;
 }
@@ -126,7 +126,7 @@ main article .text-value {
     background-color: white;
     position: absolute;
     bottom: 59px;
-    right: 330px;
+    right: 15%;
 }
 main article .text-value h2 {
     text-align: center;
