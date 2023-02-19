@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 2000px;
+}
+.header-info{
+    height: 100px;
+    background-image: linear-gradient(0,#706695,#F8956F);
+}
+.info-logo {
+    position: relative;
+}
+.info-logo>.logo{
+    width: 150px;
+    height: 100px;
+    background: url(imgs/Logo_info.png) no-repeat 30px;
+    background-size: 120px;
+}
+.info-logo .logo-text {
+    font-size: 18px;
+    position: absolute; 
+    top: 43px;
+    left: 140px;
+    font-weight:bold;
+}
+.info-element{
+    position: absolute;
+    top: 0;
+    right: 14%;
+}
+.info-element a {
+    font-size: 24px;
+    line-height: 100px;
+    margin: 52px;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+}
+.info-element a:hover {
+    color: rgb(255, 207, 163);
+    text-decoration: underline; 
+}
+.ti-search{
+    position: absolute; 
+    font-size: 25px;
+    top: 37px;
+    left: 92%;
+    color: white ;
+}
+.ti-shopping-cart{
+    position: absolute; 
+    font-size: 25px;
+    top: 37px;
+    left: 87%;
+    color: white ;
+}
+.ti-align-right{
+    position: absolute; 
+    font-size: 25px;
+    top: 37px;
+    left: 97%;
+    color: white;
+}
+.header-info  .ti-search:hover,
+.header-info .ti-align-right:hover,
+.header-info .ti-shopping-cart:hover {
+    cursor: pointer;
+    color: rgb(255, 207, 163);
+}
+nav  {
+}
+nav .header-img {
+    height: 660px;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+main .main-header {
+    width: 1199px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 660px;
+    right: 250px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
+main .main-header a {
+    line-height: 100px;
+    height: 100px;
+    display: inline-block;
+    width: 196.5px;
+    text-decoration: none;
+    color: orange;
+    font-weight: 500;
+    text-align: center;
+    font-size: 20px;
+    overflow: hidden;
+}
+main .main-header .border-header-start {
+    border-top-left-radius: 100px;
+}
+main .main-header .border-header-end {
+    border-top-right-radius: 100px;
+}
+main .main-header a:hover {
+    background-color: orange;
+    color: white;
+}
+main article  {
+    width: 100%;
+    height: 482px;
+    background-size: 100%;
+    background-image: linear-gradient(to right, rgba(254, 252, 129, 0.675), rgba(225, 128, 255, 0.515)),
+    url(imgs/xcta.jpg.pagespeed.ic.m69gPEowgD.webp);
+    background-repeat: no-repeat;
+    opacity: .9;
+    position: relative;
+}
+main article .text-value {
+    height: 360px;
+    width: 1050px;
+    background-color: white;
+    position: absolute;
+    bottom: 59px;
+    right: 330px;
+}
+main article .text-value h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+    height: 120px;
+    background: url(imgs/pngtree-black-and-yellow-star-rating-design-png-image_4020694-removebg-preview.png) no-repeat ;
+    background-position-x:290px;
+    background-position-y: 50px;
+    background-size: 315px;
+}
+main article .text-value p {
+    font-size: 18px;
+    line-height: 1.6;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+main article .text-value button {
+    height: 45px;
+    width: 170px;
+    position: absolute;
+    bottom: 26px;
+    right: 44%;
+    background-image: linear-gradient(to right, rgba(255, 151, 6, 0.952), rgba(195, 0, 255, 0.832));
+    border: none;
+    border-radius: 33px;
+}
+main article .text-value button:hover {
+    background-image: linear-gradient(to left, rgba(253, 165, 42, 0.952), rgba(205, 42, 255, 0.832));
+    cursor: pointer;
+}
+main article .text-value button a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+main .text-address {
+    height: 885px;
+    width: 100%; 
+    background-color: rgba(227, 216, 216, 0.926);
+}
+main .text-address table tr th {
+    height: 405px;
+    width: 1000px;
+    position: relative;
+}
+main .text-address table img {
+    height: 317px;
+    position: absolute;
+    top: 90px;
+    right: 366px;
+    box-shadow: 0 0 25px salmon;
+}
+main .text-address table div {
+    height: 316px;
+    width: 320px;
+    position: absolute;
+    top: 90px;
+    right: 28px;
+}
+main .text-address table div h3 {
+    font-size: 36px;
+    margin-bottom: 23px;
+    text-align: left;
+    color: rgb(255, 186, 11);
+}
+main .text-address table div p {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.6;
+    margin-top: 30px;
+}
+main .text-address table div .icon-address {
+    font-size: 30px;
+    text-decoration: none;
+    color: grey;
+    margin-right: 10px;
+}
+main .text-address table div p b {
+    font-size: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 600;
+    height: 45px;
+}
+main .text-address table div p b:hover {
+    color: rgb(255, 186, 11);
+    cursor: pointer;
+}
+main aside {
+    width: 100%;
+    background: url(imgs/xcontact.png.pagespeed.ic.qi--ZwSUbp.webp) no-repeat ;
+    background-size: 100%;
+    height: 600px;
+    margin: 10px 0 10px 0;
+    position: relative;
+}
+main aside .astext-info {
+    height: 420px;
+    width: 800px;
+    border-radius: 10px;
+    background-image: linear-gradient(to left, rgba(253, 165, 42, 0.952), rgba(205, 42, 255, 0.832));
+    position: absolute;
+    right: 58px;
+    top: 82px;
+}
+main aside .astext-info table .astext-col2 input {
+    padding: 10px;
+    width: 350px;
+    margin:20px 0 20px 26px;
+    border: none;
+}
+main aside .astext-info .astext-col1 input {
+    padding:10px;
+    width: 729px;
+    margin: 20px 0 20px 26px;
+    border: none;
+}
+main aside .astext-info .asinfo-header {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    margin:20px 0 20px 26px ;
+}
+main aside .astext-info button {
+    height: 45px;
+    width: 170px;
+    position: absolute;
+    bottom: 26px;
+    right: 75%;
+    background-image: linear-gradient(to right, rgba(255, 151, 6, 0.952), rgba(195, 0, 255, 0.832));
+    border: none;
+    border-radius: 33px;
+}
+main aside .astext-info button a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+footer {  
+    height: 400px;
+    background-color: rgb(169, 50, 255);
+    position: relative;
+}
+footer .logo-footer {
+    background: url(imgs/avata-16.jpg) no-repeat ;
+    height: 400px;
+    background-size: 30%;
+    background-position-x: 100px;
+    background-position-y: 69px;
+}
+footer .info-footer  {
+    position: absolute;
+    right: 80px;
+    top: 160px;
+}
+footer .info-footer p {
+    font-size: 25px;
+    line-height: 1.6;
+    color: white;
+}
+.ti-pencil-alt::before,.ti-email::before,.ti-mobile::before {
+    font-size: 28px;
+    margin-right: 10px;
+    color:rgba(255, 151, 6, 0.952);
+}
+footer .info-text {
+    height: 233px;
+    width: 376px;
+    position: absolute;
+    right: 525px;
+    top: 63px;
+}
+footer .info-text h2 {
+   font-size: 40px;
+    color: white;
+}
+footer .info-text p {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: justify;
+    color: white;
+    margin: 20px 0 20px 0;
+}
+.ti-facebook::before,
+.ti-twitter::before,
+.ti-pinterest::before,
+.ti-instagram::before,
+.ti-linkedin::before{
+    font-size: 20px;
+    margin: 40px 10px 0 10px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 50%;
+}
